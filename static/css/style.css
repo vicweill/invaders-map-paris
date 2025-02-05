@@ -1,0 +1,20 @@
+body {
+    margin: 0; /* Supprime les marges par défaut du body */
+    overflow: hidden; /* Empêche les scrollbars sur le body */
+    font-family: sans-serif; /* Police de caractères plus moderne */
+}
+
+h1 {
+    background-color: #f0f0f0; /* Couleur de fond pour le bandeau titre */
+    padding: 15px; /* Marge interne pour le titre */
+    margin: 0; /* Supprime les marges du titre */
+    text-align: center; /* Centre le texte du titre */
+    font-size: 1.5em; /* Taille de police un peu plus grande */
+    height: 50px; /* Hauteur fixe du bandeau titre */
+    line-height: 50px; /* Centre verticalement le texte dans le bandeau */
+}
+
+#carte {
+    width: 100%;
+    height: calc(100vh - 150px); /* Hauteur de la carte = 100% de la hauteur de la fenêtre moins la hauteur du bandeau (50px) + paddings (2x15px) = 80px */
+}

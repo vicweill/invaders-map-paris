@@ -1,0 +1,3 @@
+invader_name,Latitude,Longitude,captured,number,state
+Test Invader 1,48.85,2.35,False,1,OK
+Test Invader 2,48.86,2.36,True,,2,OK

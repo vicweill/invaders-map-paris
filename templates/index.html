@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Carte des Space Invaders de Paris</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>Carte des Space Invaders de Paris</h1>
+    <div id="carte">
+        {{ carte_invaders_html | safe }}
+    </div>
+</body>
+</html>
