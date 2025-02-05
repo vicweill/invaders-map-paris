@@ -1,9 +1,10 @@
-# invaders-map-paris
-A map for all the Space Invaders in Paris. It was based on an other Github project that I improved.
+# WORK IN PROGRESS - Projet non terminé
 
 # Space Invaders Map Paris
 
 Ce projet crée une carte interactive des Space Invaders à Paris en utilisant Python, Folium et Flask.
+
+La majorité du code est basé sur un autre projet Github (citer ici)
 
 ## Installation
 
